@@ -1,0 +1,33 @@
+# countries = {'UK':'London', 'DE':'Berlin', "FR":'Paris'}
+# list1 = []
+# for c in countries:
+#     list1.append(c)
+# print(list1)
+
+# cities = ('Belgrade', 'Paris', 'Berlin', 'London')
+# print(len(cities))
+
+d = {'key0':'value0', 'key1':'value1'}
+print(d['key0'])
+
+s = 'aaaa1'
+print(min(s))
+
+capital = "London"
+if len(capital) == 5:   
+    print(False)
+else:   
+    print(True) 
+    
+    city1 = "LONDON";
+city2 = "MOSCOW"
+print(city1[-4:]+city2[-2:])
+
+England = {"capital": "London", "population": 8768000}
+print(England.get("capital"))
+
+cities = [['New York', 'London'], ['Paris', 'Berlin']]
+cities[0].pop(1)
+print(cities)
+
+
