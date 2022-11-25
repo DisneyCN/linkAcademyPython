@@ -59,7 +59,7 @@ marks = {
     1 : 'sad',
     2 : 'ok',
     (3,4): 'not bad',
-    set(range(5,10)) : "excelent"
+    (5,6) : "excelent"
 }
 grade = int(input('Grade ? '))
 try:
