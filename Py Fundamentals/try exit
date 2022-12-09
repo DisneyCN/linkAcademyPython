@@ -1,0 +1,4 @@
+
+print('+1 new people')
+welcome = 'Hi may dear firend'
+return welcome
