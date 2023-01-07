@@ -1,0 +1,42 @@
+h1 {
+    font-size: 24px;
+    font-weight: bold;
+    color: rgb(100, 63, 117);
+    text-align: center;
+  }
+h2 {
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(132, 132, 209);
+ }
+p {
+  font-size: 16px;
+  line-height: 1.5;
+  color: rgb(129, 118, 177);
+  padding-right: 10px;
+  padding-left: 10px;
+  text-align: left;
+  }
+ul {
+    font-size: 16px;
+    line-height: 1;
+    color: rgb(140, 140, 223);
+ }
+ a{
+    color: rgb(124, 83, 236);
+
+  } 
+.menu {
+    margin: auto;
+    width: 35%;
+    border: 3px solid rgb(108, 46, 167);
+    padding: 10px;
+    text-align: center;
+}
+.left {
+    display: inline-block;
+    text-align: left;
+  }
+.center {
+    text-align: center;
+}
