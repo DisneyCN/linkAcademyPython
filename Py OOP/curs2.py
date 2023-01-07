@@ -36,6 +36,7 @@
 #     def greaterThan(self):
 #         return self.nr1 > self.nr2
 
+
 # ans = Calculator(int(input('Enter first number : ')), int(input("Enter second number : ")))
 # print("add", ans.add(), "subtract", ans.subtract(), "multiply", ans.multiply(), "divide", ans.divide)
 
@@ -64,31 +65,31 @@
 # print("distance", Point1.distance(Point2))
 
 
-# Ex3
-# class Account:
-#     def __init__(self, balance = 0):
-#         self.balance = balance
-#     def withdraw(self, amount):
-#         if amount > self.balance:
-#             print("You don't have enough money")
-#         else:
-#             self.balance -= amount
-#     def addMoney(self, money):
-#         self.balance = self.balance + money
-#     def showBalance(self):
-#         return self.balance
-# Pers1 = Account(int(input('Enter initial balance : ')))
-# while True:
-#     print("Select your option : \n1.Withdraw\n2.Add Money\n3.Show Balance\n4")
-#     option = int(input("Enter your option : "))
-#     if option == 1:
-#         Pers1.withdraw(int(input("Enter amount : ")))
-#     elif option == 2:
-#         Pers1.addMoney(int(input("Enter amount : ")))
-#     elif option == 3:
-#         print("Your balance : ",Pers1.showBalance())
-#     elif option == 4:
-#         break
+# Ex3 Create Banck account
+class Account:
+    def __init__(self, balance = 0):
+        self.balance = balance
+    def withdraw(self, amount):
+        if amount > self.balance:
+            print("You don't have enough money")
+        else:
+            self.balance -= amount
+    def addMoney(self, money):
+        self.balance = self.balance + money
+    def showBalance(self):
+        return self.balance
+Pers1 = Account(int(input('Enter initial balance : ')))
+while True:
+    print("Select your option : \n1.Withdraw\n2.Add Money\n3.Show Balance\n4")
+    option = int(input("Enter your option : "))
+    if option == 1:
+        Pers1.withdraw(int(input("Enter amount : ")))
+    elif option == 2:
+        Pers1.addMoney(int(input("Enter amount : ")))
+    elif option == 3:
+        print("Your balance : ",Pers1.showBalance())
+    elif option == 4:
+        break
 
 
 
